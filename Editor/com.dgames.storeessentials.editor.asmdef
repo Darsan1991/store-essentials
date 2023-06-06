@@ -1,0 +1,16 @@
+{
+    "name": "com.dgames.storeessentials.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:89cb86af29fe04b25b63f0bb611616d0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

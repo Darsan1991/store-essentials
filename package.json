@@ -1,8 +1,8 @@
 {
-    "name": "com.dgames.unityessentials",
+    "name": "com.dgames.storeessentials",
     "version": "1.0.0",
-    "displayName": "Essential Package",
-    "description": "Provide basic functionality for project",
+    "displayName": "Store Essential Package",
+    "description": "Provide basic functionality for project related to store",
     "unity":"2021.3",
     "author": {
         "name": "Darsan",
@@ -11,6 +11,14 @@
     },
     "dependencies": {
         
-    }
+    },
+    "samples": [
+        {
+            "displayName": "Essentials",
+            "description": "Essentials Scripts",
+            "path": "Samples/Essentials"
+        }
+
+    ]
 
 }
