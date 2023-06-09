@@ -1,5 +1,4 @@
-﻿using DGames.Temp;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace DGames.Store
 {
@@ -21,7 +20,7 @@ namespace DGames.Store
         [UnityEditor.MenuItem("MyGames/Settings/Store")]
         public static void Open()
         {
-            ScriptableEditorUtils.OpenOrCreateDefault<StoreSettings>();
+            Temp.ScriptableEditorUtils.OpenOrCreateDefault<StoreSettings>();
         }
 #endif
     }
