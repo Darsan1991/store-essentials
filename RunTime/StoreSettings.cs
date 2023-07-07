@@ -6,7 +6,6 @@ namespace DGames.Store
 
     class StoreSettings : ScriptableObject
     {
-        public const string DEFAULT_NAME = nameof(StoreSettings);
 
 
         [SerializeField] private string _iosAppId;
