@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace DGames.Store
 {
-    [CustomEditor(typeof(StoreSettings))]
+    //[CustomEditor(typeof(StoreSettings))]
 
     public class StoreSettingsEditor : Editor
     {

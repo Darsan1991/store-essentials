@@ -1,13 +1,16 @@
-﻿using UnityEngine;
+﻿using DGames.Essentials.Attributes;
+using UnityEngine;
 
 namespace DGames.Store
 {
+    [DashboardResourceItem(path:"Settings")]
+
     public partial
 
     class StoreSettings : ScriptableObject
     {
 
-
+[HelpBox("The App id require to create rating url. This is only for ios build.")]
         [SerializeField] private string _iosAppId;
         public string IosAppId => _iosAppId;
 
